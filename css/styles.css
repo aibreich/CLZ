@@ -2019,14 +2019,14 @@ footer {
     height: 600px; }
     .upperbox .infoholder {
       flex-direction: column;
-      height: 500px;
+      height: 380px;
       width: 90%; }
       .upperbox .infoholder .tv5logo {
         width: 100px;
         height: 140px;
         margin-bottom: 20px; }
       .upperbox .infoholder .wordcontent {
-        height: 350px;
+        height: 200px;
         width: 350px;
         text-align: center; }
         .upperbox .infoholder .wordcontent h6 {
@@ -2035,15 +2035,15 @@ footer {
           font-family: Mundo-Reg;
           padding: 0; }
         .upperbox .infoholder .wordcontent h1 {
-          font-size: 70px;
+          font-size: 45px;
           font-family: Mundo-Reg;
           color: white; }
         .upperbox .infoholder .wordcontent h2 {
-          font-size: 50px;
+          font-size: 30px;
           font-family: Mundo-Reg;
           color: white; }
         .upperbox .infoholder .wordcontent p {
-          font-size: 18px;
+          font-size: 14px;
           font-family: Mundo-Reg;
           color: white; }
   .dayinformationpurple {
@@ -2066,72 +2066,9 @@ footer {
       .dayinformationwhite .infoholder p {
         font-size: 18px; } }
 
-.crafts2 {
-  height: 40vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  align-items: center;
-  box-shadow: 0px 0px 15px black; }
-  .crafts2 .crafts-title {
-    color: var(--green);
-    font-size: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: Mundo-Reg;
-    position: relative;
-    margin-top: -10px; }
-  .crafts2 .crafts-subtitle {
-    color: var(--green);
-    font-size: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: Mundo-Reg;
-    position: relative;
-    margin-top: -100px; }
-
-.crafts3 {
-  height: 40vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
-  .crafts3 .craft {
-    width: 33.3%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--green);
-    box-shadow: 0px 2px 8px black; }
-    .crafts3 .craft .craft-cont {
-      height: 120px;
-      width: 300px;
-      display: grid;
-      grid-template-columns: repeat(1, auto);
-      align-items: center;
-      justify-content: space-evenly; }
-      .crafts3 .craft .craft-cont .craft-title {
-        font-family: Mundo-Reg;
-        font-size: 50px;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly; }
-      .crafts3 .craft .craft-cont .craft-info {
-        font-family: Mundo-Reg;
-        font-size: 20px;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly; }
-
 .crafts-subsect {
   height: 32vh;
+  text-align: center;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -2185,24 +2122,127 @@ footer {
         height: 180px;
         background-color: var(--green); }
 
+.upperbox3 {
+  background-image: linear-gradient(to right, rgba(8, 59, 35, 0.8), rgba(88, 158, 14, 0.5)), url(../css/img/kidcraft.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: right;
+  justify-content: space-evenly; }
+  .upperbox3 .infoholder {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .upperbox3 .infoholder .wordcontent {
+      height: 200px;
+      max-width: 800px;
+      text-align: left; }
+      .upperbox3 .infoholder .wordcontent h6 {
+        color: white;
+        font-size: 20px;
+        font-family: Mundo-Reg;
+        padding: 0;
+        margin-bottom: -20px; }
+      .upperbox3 .infoholder .wordcontent h1 {
+        font-size: 90px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox3 .infoholder .wordcontent h2 {
+        font-size: 30px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox3 .infoholder .wordcontent p {
+        font-size: 24px;
+        font-family: Mundo-Reg;
+        color: white; }
+
+.whitecraft-sect {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0px 2px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .whitecraft-sect .content {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .whitecraft-sect .content .left {
+      padding: 15px;
+      width: 600px;
+      height: 100%;
+      text-align: right; }
+      .whitecraft-sect .content .left h1 {
+        color: var(--green);
+        font-size: 50px;
+        font-family: Mundo-Reg; }
+      .whitecraft-sect .content .left p {
+        font-family: Arial, Helvetica, sans-serif; }
+    .whitecraft-sect .content .right {
+      width: 420px;
+      height: 100%; }
+      .whitecraft-sect .content .right .crayonimg {
+        width: 235px;
+        height: 300px;
+        background-image: url(../css/img/crayons.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto; }
+      .whitecraft-sect .content .right .slimeimg {
+        width: 271px;
+        height: 320px;
+        background-image: url(../css/img/slime.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto; }
+
+.greencraft-sect {
+  width: 100%;
+  height: 600px;
+  background-color: var(--green);
+  box-shadow: 0px 2px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .greencraft-sect .content {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .greencraft-sect .content .left {
+      padding: 15px;
+      width: 600px;
+      height: 100%; }
+      .greencraft-sect .content .left h1 {
+        color: white;
+        font-size: 50px;
+        font-family: Mundo-Reg; }
+      .greencraft-sect .content .left p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; }
+    .greencraft-sect .content .right {
+      width: 420px;
+      height: 100%; }
+      .greencraft-sect .content .right .paintimg {
+        width: 380px;
+        height: 250px;
+        background-image: url(../css/img/paint.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto; }
+
 @media screen and (max-width: 1000px) {
-  .crafts2 {
-    height: 28vh; }
-    .crafts2 .crafts-title {
-      font-size: 50px;
-      margin-top: -10px; }
-    .crafts2 .crafts-subtitle {
-      font-size: 30px;
-      margin-top: -70px; }
-  .crafts3 .craft .craft-cont {
-    height: 120px;
-    width: 260px;
-    display: grid;
-    grid-template-columns: repeat(1, auto); }
-    .crafts3 .craft .craft-cont .craft-title {
-      font-size: 45px; }
-    .crafts3 .craft .craft-cont .craft-info {
-      font-size: 20px; }
   .crafts4 {
     height: 100vh;
     width: 100vw;
@@ -2245,71 +2285,112 @@ footer {
         .crafts4 .img-gallery .img-bottom .img-p {
           width: 180px;
           height: 120px;
-          background-color: var(--green); } }
+          background-color: var(--green); }
+  .whitecraft-sect {
+    height: 700px; }
+    .whitecraft-sect .content {
+      flex-direction: column;
+      height: 500px; }
+      .whitecraft-sect .content .left {
+        width: 450px; }
+  .greencraft-sect {
+    height: 700px; }
+    .greencraft-sect .content {
+      flex-direction: column;
+      height: 500px; }
+      .greencraft-sect .content .left {
+        width: 450px; }
+  .upperbox3 {
+    width: 100%; }
+    .upperbox3 .infoholder .wordcontent h1 {
+      font-size: 75px; } }
 
 @media screen and (max-width: 780px) {
-  .crafts2 {
-    height: 28vh; }
-    .crafts2 .crafts-title {
-      font-size: 40px;
-      margin-top: -10px; }
-    .crafts2 .crafts-subtitle {
-      font-size: 25px;
-      margin-top: -70px; }
-  .crafts3 {
-    height: 70vh;
-    width: 100vw;
-    flex-direction: column; }
-    .crafts3 .craft {
-      width: 100%;
-      height: 33.3%; }
-      .crafts3 .craft .craft-cont {
-        height: 120px;
-        width: 260px;
-        display: grid;
-        grid-template-columns: repeat(1, auto); }
-        .crafts3 .craft .craft-cont .craft-title {
-          font-size: 45px; }
-        .crafts3 .craft .craft-cont .craft-info {
-          font-size: 20px; }
   .crafts-subsect {
     height: 32vh;
     width: 100vw; }
     .crafts-subsect .crafts-title {
-      font-size: 50px; } }
+      font-size: 50px; }
+  .upperbox3 .infoholder .wordcontent {
+    height: 300px;
+    text-align: center; }
+    .upperbox3 .infoholder .wordcontent h1 {
+      font-size: 60px; }
+    .upperbox3 .infoholder .wordcontent h6 {
+      margin-bottom: 0; } }
+
+@media screen and (max-width: 560px) {
+  .whitecraft-sect {
+    height: 600px; }
+    .whitecraft-sect .content {
+      width: 300px;
+      height: 420px; }
+      .whitecraft-sect .content .left {
+        width: 100%;
+        padding: 15px 5px 5px 5px;
+        text-align: center; }
+        .whitecraft-sect .content .left h1 {
+          font-size: 35px; }
+        .whitecraft-sect .content .left p {
+          font-size: 14px; }
+      .whitecraft-sect .content .right {
+        width: 100%;
+        height: 100%; }
+        .whitecraft-sect .content .right .crayonimg {
+          width: 170px;
+          height: 220px;
+          margin-bottom: 20px; }
+        .whitecraft-sect .content .right .slimeimg {
+          width: 170px;
+          height: 202px;
+          margin-bottom: 20px; }
+  .greencraft-sect {
+    height: 600px; }
+    .greencraft-sect .content {
+      width: 300px;
+      height: 420px; }
+      .greencraft-sect .content .left {
+        width: 100%;
+        padding: 15px 5px 5px 5px;
+        text-align: center; }
+        .greencraft-sect .content .left h1 {
+          font-size: 35px; }
+        .greencraft-sect .content .left p {
+          font-size: 14px; }
+      .greencraft-sect .content .right {
+        width: 100%;
+        height: 100%; }
+        .greencraft-sect .content .right .paintimg {
+          width: 250px;
+          height: 170px; } }
 
 @media screen and (max-width: 450px) {
-  .crafts2 {
-    height: 24vh; }
-    .crafts2 .crafts-title {
-      font-size: 35px;
-      margin-top: -10px; }
-    .crafts2 .crafts-subtitle {
-      font-size: 20px;
-      margin-top: -70px; }
-  .crafts3 {
-    height: 60vh;
-    width: 100vw;
-    flex-direction: column; }
-    .crafts3 .craft {
-      width: 100%;
-      height: 33.3%; }
-      .crafts3 .craft .craft-cont {
-        height: 120px;
-        width: 260px;
-        display: grid;
-        grid-template-columns: repeat(1, auto); }
-        .crafts3 .craft .craft-cont .craft-title {
-          font-size: 35px; }
-        .crafts3 .craft .craft-cont .craft-info {
-          font-size: 20px; }
   .crafts-subsect {
     height: 40vh;
     width: 100vw; }
     .crafts-subsect .crafts-title {
       width: 50%;
       font-size: 50px;
-      text-align: center; } }
+      text-align: center; }
+  .upperbox3 {
+    height: 550px; }
+    .upperbox3 .infoholder .wordcontent {
+      height: 230px;
+      width: 350px;
+      margin: 0 auto;
+      text-align: center; }
+      .upperbox3 .infoholder .wordcontent h1 {
+        font-size: 50px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox3 .infoholder .wordcontent h6 {
+        font-size: 16px; }
+      .upperbox3 .infoholder .wordcontent p {
+        font-size: 14px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox3 .infoholder .wordcontent h2 {
+        font-size: 20px; } }
 
 .print-sect {
   width: 100%;
