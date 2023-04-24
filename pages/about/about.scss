@@ -1,3 +1,4 @@
+// odd number sections styling
 .whitesectioninfo{
     width: 100%;
     min-height: 550px;
@@ -21,7 +22,7 @@
         }
     }
 }
-
+// even number styling for sections
 .orangesectioninfo{
     width: 100%;
     min-height: 550px;
@@ -46,7 +47,7 @@
         }
     }
 }
-
+//   styling for 780px (Tablets or bigger phones)
   @media screen and (max-width: 780px) {
     .whitesectioninfo{
         width: 100%;
@@ -82,7 +83,7 @@
     }
 
   }
-  
+  //   styling for phone
   @media screen and (max-width: 500px) {
 
     .whitesectioninfo{

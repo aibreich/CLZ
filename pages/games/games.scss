@@ -47,7 +47,7 @@
         }
     }
 }
-
+// device checkout and gaming volunteers sections
 .white-sect {
     width: 100%;
     height: 600px;
@@ -103,7 +103,7 @@
         }
     }
 }
-
+// minecraft section img
 .upperbox2{
     background-image: linear-gradient(to right,rgba(117, 12, 2, 0.8),rgba(253, 56, 141, 0.5)), url(../css/img/mincraft.webp);
     background-position: center;
@@ -149,10 +149,11 @@
         }
     }
 }
-
+// styling at 1200px
 @media screen and (max-width: 1200px) {
       
 }
+//   styling at 1000px (smaller web screens or bigger tablets)
 @media screen and (max-width: 1000px){
     .games2 {
         height: 40vh;
@@ -212,7 +213,7 @@
         }
     }
  }
-
+//   styling for 780px (Tablets or bigger phones)
 @media screen and (max-width: 780px) {
     .games2 {
         height: 70vh;
@@ -254,7 +255,7 @@
         }
     }
 }
-
+//   styling for phone 
 @media screen and (max-width: 560px) {
     .games2 {
         height: 64vh;

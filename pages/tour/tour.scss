@@ -1,4 +1,4 @@
-// tour section that shows the hours
+// tour section for inpatient info
 .tour1{
     height: 90vh;
     width: 100vw;
@@ -85,7 +85,7 @@
         }
     }
 }
-// tour section for contacting people
+// tour section for outpatient info 
 .tour2 { 
     height: 90vh;
     width: 100vw;
@@ -197,11 +197,12 @@
         margin-top: -10%;
     }
 } 
-
+// styling at 1200px
 @media screen and (max-width: 1200px) {
     
       
-  }
+  }   
+//   styling at 1000px (smaller web screens or bigger tablets)
   @media screen and (max-width: 1000px){
     .tour1{
         height: 80vh;
@@ -392,7 +393,7 @@
 }
     }
    }
-  
+//   styling for 780px (Tablets or bigger phones)
   @media screen and (max-width: 780px) {
     .tour1{
         height: 100vh;
@@ -582,7 +583,7 @@
 }
     }
   }
-  
+//   styling for phone 
   @media screen and (max-width: 550px) {
     .tour1{
         height: 100vh;

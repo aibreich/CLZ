@@ -573,7 +573,7 @@
     transform: translateY(-25px);
   }
 }
-
+//   styling at 1200px (smaller web screens or bigger tablets)
 @media screen and (max-width: 1200px) {
 
   .zone-sect, .crafts-sect, .videogames-sect {
@@ -673,11 +673,11 @@
     }
   }
 }
-
+//   styling for 780px (Tablets or bigger phones)
 @media screen and (max-width: 780px) {
   
 }
-
+//   styling for phone
 @media screen and (max-width: 450px) {
   .zone-sect, .crafts-sect, .videogames-sect {
     flex-direction: column;
