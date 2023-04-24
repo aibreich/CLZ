@@ -1,83 +1,4 @@
-// // craft option section
-// .crafts2 {
-//     height: 40vh;
-//     width: 100vw;
-//     display: grid;
-//     grid-template-columns: repeat(1,auto);
-//     align-items: center;
-//     box-shadow: 0px 0px 15px black; 
-//     // position: absolute;
-//     .crafts-title {
-//         color: var(--green);
-//         font-size: 60px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-evenly;
-//         font-family: Mundo-Reg;
-//         position: relative;
-//         margin-top: -10px;
-//     }
-//     .crafts-subtitle {
-//         color: var(--green);
-//         font-size: 45px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-evenly;
-//         font-family: Mundo-Reg;
-//         position: relative;
-//         margin-top: -100px;
-//     }
-// }
-// // 3 craft options section
-// .crafts3 {
-//     height: 40vh;
-//     width: 100vw;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-evenly; 
-//     box-shadow: 0px 0px 15px black;
-    
-//     .craft{
-//         width: 33.3%;
-//         height: 100%;
-//         display: grid;
-//         grid-template-columns: repeat(1,auto);
-//         align-items: center;
-//         justify-content: space-evenly;
-//         background-color: var(--green);
-//         box-shadow: 0px 2px 8px black; 
-        
-//         .craft-cont {
-//             height: 120px;
-//             width: 300px;
-//             display: grid;
-//             grid-template-columns: repeat(1,auto);
-//             align-items: center;
-//             justify-content: space-evenly;
-            
-//             .craft-title{
-//             font-family: Mundo-Reg;
-//             font-size: 50px;
-//             color: white;
-//             display: flex;
-//             align-items: center;
-//             justify-content: space-evenly;
-            
-//         }
-//         .craft-info {
-//             font-family: Mundo-Reg;
-//             font-size: 20px;
-//             color: white;
-//             display: flex;
-//             align-items: center;
-//             justify-content: space-evenly;
-            
-//         }
-//         }
-        
-//     }
-// }
-// // crafts subsection
+// crafts subsection
 .crafts-subsect{
     height: 32vh;
     text-align: center;
@@ -94,7 +15,7 @@
         font-family: Mundo-Reg;
     }
 }
-// // picutres of kids crafts
+// picutres of kids crafts
 .crafts4{
     height: 100vh;
     width: 100vw;
@@ -112,8 +33,6 @@
     }
 
     .img-gallery {
-        // display: grid;
-        // grid-template-columns: repeat(1,auto);
         display: flex;
     flex-direction: column;
         align-items: center;
@@ -168,11 +87,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        // background-color: red;
+        
         .wordcontent{
             height: 200px;
             max-width: 800px;
-            // background-color: red;
             text-align: left;
             h6{
                 color: white;
@@ -212,13 +130,11 @@
     .content{
         width: 80%;
         height: 300px;
-        // background-color: red;
         display: flex;
         align-items: center;
         justify-content: space-between;
         
         .left{
-            // background-color: blue;
             padding: 15px;
             width: 600px;
             height: 100%;
@@ -233,7 +149,6 @@
             }
         }
         .right{
-            // background-color: yellow;
             width: 420px;
             height: 100%;
 
@@ -271,13 +186,11 @@
     .content{
         width: 80%;
         height: 300px;
-        // background-color: red;
         display: flex;
         align-items: center;
         justify-content: space-between;
         
         .left{
-            // background-color: blue;
             padding: 15px;
             width: 600px;
             height: 100%;
@@ -292,7 +205,6 @@
             }
         }
         .right{
-            // background-color: yellow;
             width: 420px;
             height: 100%;
 
@@ -314,41 +226,7 @@
       
   }
   @media screen and (max-width: 1000px){
-    // .crafts2 {
-    //     height: 28vh;
-        
-    //     .crafts-title {
-    //         font-size: 50px;
-    //         margin-top: -10px;
-    //     }
-    //     .crafts-subtitle {
-    //         font-size: 30px;
-    //         margin-top: -70px;
-    //     }
-    // }
-    // .crafts3 {
-        
-        
-    //     .craft{
-            
-            
-    //         .craft-cont {
-    //             height: 120px;
-    //             width: 260px;
-    //             display: grid;
-    //             grid-template-columns: repeat(1,auto);
-                
-                
-    //             .craft-title{
-    //             font-size: 45px;
-    //         }
-    //         .craft-info {
-    //             font-size: 20px;
-    //         }
-    //         }
-            
-    //     }
-    // }
+   
     .crafts4{
         height: 100vh;
         width: 100vw;
@@ -409,7 +287,6 @@
         height: 700px;   
         .content{
             flex-direction: column;
-            // background-color: magenta;
             height: 500px;
             .left{
                 width: 450px;
@@ -421,7 +298,6 @@
         height: 700px;   
         .content{
             flex-direction: column;
-            // background-color: magenta;
             height: 500px;
             .left{
                 width: 450px;
@@ -442,47 +318,7 @@
    }
   
   @media screen and (max-width: 780px) {
-    // .crafts2 {
-    //     height: 28vh;
-        
-    //     .crafts-title {
-    //         font-size: 40px;
-    //         margin-top: -10px;
-    //     }
-    //     .crafts-subtitle {
-    //         font-size: 25px;
-    //         margin-top: -70px;
-    //     }
-    // }
-    // .crafts3 {
-    //     height: 70vh;
-    //     width: 100vw;
-        
-    //     flex-direction: column;
-       
-        
-    //     .craft{
-    //         width: 100%;
-    //         height: 33.3%;
-            
-            
-    //         .craft-cont {
-    //             height: 120px;
-    //             width: 260px;
-    //             display: grid;
-    //             grid-template-columns: repeat(1,auto);
-                
-                
-    //             .craft-title{
-    //             font-size: 45px;
-    //         }
-    //         .craft-info {
-    //             font-size: 20px;
-    //         }
-    //         }
-            
-    //     }
-    // }
+   
     .crafts-subsect{
         height: 32vh;
         width: 100vw;
@@ -494,14 +330,8 @@
     }
     .upperbox3{    
         .infoholder{
-            // flex-direction: column;
-            // background-color: red;
-            // height: 600px;
-            // width: 90%;
             .wordcontent{
                 height: 300px;
-                // min-width: 100%;
-                // background-color: blue;
                 text-align: center;
 
                 h1{
@@ -519,7 +349,6 @@
     .whitecraft-sect {
         height: 600px;
         .content{
-            // background-color: red;
             width: 300px;
             height: 420px;
             .left{
@@ -534,7 +363,6 @@
                 }
             }
             .right{
-                // background-color: yellow;
                 width: 100%;
                 height: 100%;
     
@@ -555,14 +383,12 @@
     .greencraft-sect {
         height: 600px;
         .content{
-            // background-color: red;
             width: 300px;
             height: 420px;
             .left{
                 width: 100%;
                 padding: 15px 5px 5px 5px;
                 text-align: center;
-                // background-color: rebeccapurple;
                 h1{
                     font-size: 35px;
                 }
@@ -571,7 +397,6 @@
                 }
             }
             .right{
-                // background-color: yellow;
                 width: 100%;
                 height: 100%;
     
@@ -585,47 +410,7 @@
   }
   
   @media screen and (max-width: 450px) {
-    // .crafts2 {
-    //     height: 24vh;
-        
-    //     .crafts-title {
-    //         font-size: 35px;
-    //         margin-top: -10px;
-    //     }
-    //     .crafts-subtitle {
-    //         font-size: 20px;
-    //         margin-top: -70px;
-    //     }
-    // }
-    // .crafts3 {
-    //     height: 60vh;
-    //     width: 100vw;
-        
-    //     flex-direction: column;
-       
-        
-    //     .craft{
-    //         width: 100%;
-    //         height: 33.3%;
-            
-            
-    //         .craft-cont {
-    //             height: 120px;
-    //             width: 260px;
-    //             display: grid;
-    //             grid-template-columns: repeat(1,auto);
-                
-                
-    //             .craft-title{
-    //             font-size: 35px;
-    //         }
-    //         .craft-info {
-    //             font-size: 20px;
-    //         }
-    //         }
-            
-    //     }
-    // }
+   
     .crafts-subsect{
         height: 40vh;
         width: 100vw;
@@ -640,15 +425,10 @@
     .upperbox3{ 
         height: 550px;   
         .infoholder{
-            // flex-direction: column;
-            // // background-color: red;
-            // height: 500px;
-            // width: 90%;
             
             .wordcontent{
                 height: 230px;
                 width: 350px;
-                // background-color: blue;
                 margin: 0 auto;
                 text-align: center;
                 h1{

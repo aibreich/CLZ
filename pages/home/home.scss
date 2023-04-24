@@ -16,13 +16,11 @@
     align-items: center; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
       font-family: Mundo-Reg;
       color: white;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -30,7 +28,6 @@
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -114,13 +111,11 @@
     align-items: center; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
       font-family: Mundo-Reg;
       color: white;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -128,7 +123,6 @@
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -212,13 +206,11 @@
     align-items: center; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
       font-family: Mundo-Reg;
       color: white;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -226,7 +218,6 @@
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -308,13 +299,11 @@
     align-items: center; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
       font-family: Mundo-Reg;
       color: black;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -322,7 +311,6 @@
       font-family: Mundo-Reg;
       color: black;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -415,7 +403,6 @@
       font-size: 64px;
       font-family: Mundo-Reg;
       color: white;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -423,7 +410,6 @@
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -504,13 +490,11 @@
     align-items: center; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
       font-family: Mundo-Reg;
       color: white;
-      // background-color: blueviolet;
       padding-bottom: 20px;
     }
     .blurb {
@@ -518,7 +502,6 @@
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
-      // background-color: green;
       padding-bottom: 40px;
     }
     a {
@@ -594,12 +577,11 @@
 @media screen and (max-width: 1200px) {
 
   .zone-sect, .crafts-sect, .videogames-sect {
-    // background-color: green;
+    
     flex-direction: column;
     height: 770px;
     justify-content: center;
     .sect-words{
-      // background-color: red;
       min-width: 100%;
       padding: 10px;
       justify-content: center;
@@ -615,7 +597,6 @@
       .blurb{
         font-size: 24px;
         margin: 0 auto;
-        // background-color: gray;
         width: 90%;
   
       }
@@ -641,7 +622,6 @@
     }
   }
   .tv-sect, .stem-sect, .learnmore-sect {
-    // background-color: green;
     flex-direction: column;
     height: 770px;
     justify-content: center;
@@ -657,7 +637,6 @@
       }
     }
     .sect-words{
-      // background-color: pink;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -701,12 +680,10 @@
 
 @media screen and (max-width: 450px) {
   .zone-sect, .crafts-sect, .videogames-sect {
-    // background-color: green;
     flex-direction: column;
     height: 520px;
     justify-content: space-between;
     .sect-words{
-      // background-color: red;
       margin-top: 20px;
       min-width: 100%;
       padding: 10px;
@@ -723,7 +700,6 @@
       .blurb{
         font-size: 12px;
         margin: 0 auto;
-        // background-color: gray;
         padding-bottom: 20px;
         width: 90%;
   
@@ -755,7 +731,6 @@
     }
   }
   .tv-sect, .stem-sect, .learnmore-sect {
-    // background-color: green;
     flex-direction: column;
     height: 520px;
     justify-content: space-between;
@@ -771,7 +746,6 @@
       }
     }
     .sect-words{
-      // background-color: pink;
       justify-content: center;
       align-items: center;
       text-align: center;
