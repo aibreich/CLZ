@@ -2722,7 +2722,7 @@ footer {
         margin: 0 auto; }
 
 .upperbox2 {
-  background-image: linear-gradient(to right, rgba(117, 12, 2, 0.8), rgba(253, 56, 141, 0.5)), url(../../css/img/mincraft.webp);
+  background-image: linear-gradient(to right, rgba(117, 12, 2, 0.8), rgba(253, 56, 141, 0.5)), url(../css/img/mincraft.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
