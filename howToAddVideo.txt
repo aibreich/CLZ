@@ -1,0 +1,54 @@
+Step 1: Find the video you would like to add on youtube.
+
+-------------------------------------------------------------------------------------------------
+
+Step 2: Click on the share arrow for the video while on desktop. Once there click on the Embed option. 
+
+-------------------------------------------------------------------------------------------------
+
+Step 3: You will be met with a set of code that looks like this. What you want to focus on is the code that comes after the /embed/ portion. Copy the segment, in this case the segment is 
+"7-DeYcl5Yu0".
+
+    <iframe
+    width="560" height="315"
+    src="https://www.youtube.com/embed/7-DeYcl5Yu0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    ></iframe>
+
+-------------------------------------------------------------------------------------------------
+
+Step 4: Once you have your code segment for your video. You want to go to the page you want the video on and simply replace the code segment. This should change the video over to the new one you selected, If you made a change and it doesnt work it may need the permission for embedding it. 
+
+-------------------------------------------------------------------------------------------------
+
+Just for safety here is a CodeBlock incase anything happens when switching videos over. However notice that the media player within the stem section has a slightly different class list than the tour page. There will be a code segment for each.
+
+
+-------------------------------------------------------------------------------------------------
+
+Tour page Video codeblock
+
+    <iframe
+    class="mediaplayer"
+    src="https://www.youtube.com/embed/7-DeYcl5Yu0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+
+-------------------------------------------------------------------------------------------------
+
+Stem Page Video codeblock
+
+    <iframe
+    class="mediaplayer stem"
+    src="https://www.youtube.com/embed/7-DeYcl5Yu0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
