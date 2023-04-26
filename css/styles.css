@@ -668,7 +668,7 @@ footer {
       color: white;
       padding-bottom: 20px; }
     .zone-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -745,7 +745,7 @@ footer {
       color: white;
       padding-bottom: 20px; }
     .tv-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -822,7 +822,7 @@ footer {
       color: white;
       padding-bottom: 20px; }
     .crafts-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -898,7 +898,7 @@ footer {
       color: black;
       padding-bottom: 20px; }
     .stem-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: black;
       width: 520px;
@@ -976,7 +976,7 @@ footer {
       color: white;
       padding-bottom: 20px; }
     .videogames-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -1052,7 +1052,7 @@ footer {
       color: white;
       padding-bottom: 20px; }
     .learnmore-sect .sect-words .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -1186,7 +1186,7 @@ footer {
 @media screen and (max-width: 450px) {
   .zone-sect, .crafts-sect, .videogames-sect {
     flex-direction: column;
-    height: 520px;
+    height: 540px;
     justify-content: space-between; }
     .zone-sect .sect-words, .crafts-sect .sect-words, .videogames-sect .sect-words {
       margin-top: 20px;
@@ -1200,7 +1200,7 @@ footer {
         font-size: 36px;
         margin: 0 auto; }
       .zone-sect .sect-words .blurb, .crafts-sect .sect-words .blurb, .videogames-sect .sect-words .blurb {
-        font-size: 12px;
+        font-size: 18px;
         margin: 0 auto;
         padding-bottom: 20px;
         width: 90%; }
@@ -1224,7 +1224,7 @@ footer {
         width: 250px; }
   .tv-sect, .stem-sect, .learnmore-sect {
     flex-direction: column;
-    height: 520px;
+    height: 540px;
     justify-content: space-between;
     position: relative; }
     .tv-sect .sect-img, .stem-sect .sect-img, .learnmore-sect .sect-img {
@@ -1247,7 +1247,7 @@ footer {
         font-size: 36px;
         margin: 0 auto; }
       .tv-sect .sect-words .blurb, .stem-sect .sect-words .blurb, .learnmore-sect .sect-words .blurb {
-        font-size: 12px;
+        font-size: 18px;
         width: 90%;
         margin: 0 auto;
         padding-bottom: 20px; }

@@ -24,7 +24,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px; 
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -119,7 +119,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -214,7 +214,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -307,7 +307,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: black;
       width: 520px;
@@ -406,7 +406,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -498,7 +498,7 @@
       padding-bottom: 20px;
     }
     .blurb {
-      font-size: 18px;
+      font-size: 24px;
       font-family: Mundo-Reg;
       color: white;
       width: 520px;
@@ -678,10 +678,10 @@
   
 }
 //   styling for phone
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) { 
   .zone-sect, .crafts-sect, .videogames-sect {
     flex-direction: column;
-    height: 520px;
+    height: 540px;
     justify-content: space-between;
     .sect-words{
       margin-top: 20px;
@@ -698,7 +698,7 @@
   
       }
       .blurb{
-        font-size: 12px;
+        font-size: 18px;
         margin: 0 auto;
         padding-bottom: 20px;
         width: 90%;
@@ -732,7 +732,7 @@
   }
   .tv-sect, .stem-sect, .learnmore-sect {
     flex-direction: column;
-    height: 520px;
+    height: 540px;
     justify-content: space-between;
     position: relative;
     .sect-img {
@@ -760,7 +760,7 @@
   
       }
       .blurb{
-        font-size: 12px;
+        font-size: 18px;
         width: 90%;
         margin: 0 auto;
         padding-bottom: 20px;
