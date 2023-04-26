@@ -1300,21 +1300,21 @@ footer {
         padding-bottom: 45px;
         font-weight: bold; }
       .tour1 .left-t-1 .info-boxes .hrs-txt {
-        font-size: 24px;
+        font-size: 25px;
         font-family: Mundo-reg;
         color: var(--blue);
         width: 300px;
         height: 30px;
         font-weight: 300; }
       .tour1 .left-t-1 .info-boxes .who-txt {
-        font-size: 22px;
+        font-size: 23px;
         font-family: Mundo-reg;
         color: var(--blue);
         width: 375px;
         height: 30px; }
       .tour1 .left-t-1 .info-boxes .extra-txt {
         width: 415px;
-        font-size: 20px;
+        font-size: 21px;
         font-family: Mundo-reg;
         color: var(--blue);
         font-style: italic; }
@@ -1332,10 +1332,6 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .tour1 .right-t-1 .contact-nurse {
-      width: 450px;
-      height: 140px;
-      background-color: var(--blue); }
 
 .tour2 {
   height: 90vh;
@@ -1374,24 +1370,18 @@ footer {
         padding-bottom: 45px;
         font-weight: bold; }
       .tour2 .left-t-2 .info-boxes .hrs-txt {
-        font-size: 24px;
+        font-size: 25px;
         font-family: Mundo-reg;
         color: var(--white);
         width: 300px;
         height: 30px;
         font-weight: 300; }
       .tour2 .left-t-2 .info-boxes .who-txt {
-        font-size: 22px;
+        font-size: 23px;
         font-family: Mundo-reg;
         color: var(--white);
         width: 375px;
         height: 30px; }
-      .tour2 .left-t-2 .info-boxes .extra-txt {
-        width: 415px;
-        font-size: 20px;
-        font-family: Mundo-reg;
-        color: var(--white);
-        font-style: italic; }
   .tour2 .right-t-2 {
     width: 50%;
     height: 100%;
@@ -1735,7 +1725,7 @@ footer {
     flex-direction: column; }
     .tour1 .left-t-1 {
       width: 100%;
-      height: 50%;
+      height: 65%;
       margin-top: 30px;
       display: flex;
       flex-direction: column;
@@ -1746,7 +1736,8 @@ footer {
         font-size: 47px;
         color: var(--blue);
         width: 300px;
-        height: 60px; }
+        height: 60px;
+        padding-bottom: 25px; }
       .tour1 .left-t-1 .info-boxes {
         display: flex;
         flex-direction: column;
@@ -1762,14 +1753,15 @@ footer {
           height: 30px;
           font-weight: bold; }
         .tour1 .left-t-1 .info-boxes .hrs-txt {
-          font-size: 21px;
+          font-size: 22px;
           font-family: Mundo-reg;
           color: var(--blue);
-          width: 200px;
+          width: 220px;
           height: 30px;
-          font-weight: 300; }
+          font-weight: 300;
+          padding-bottom: 20px; }
         .tour1 .left-t-1 .info-boxes .who-txt {
-          font-size: 19px;
+          font-size: 20px;
           font-family: Mundo-reg;
           color: var(--blue);
           width: 275px;
@@ -1777,13 +1769,13 @@ footer {
           padding-bottom: 60px; }
         .tour1 .left-t-1 .info-boxes .extra-txt {
           width: 315px;
-          font-size: 17px;
+          font-size: 18px;
           font-family: Mundo-reg;
           color: var(--blue);
           font-style: italic; }
     .tour1 .right-t-1 {
       width: 100%;
-      height: 50%;
+      height: 35%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1803,7 +1795,7 @@ footer {
     flex-direction: column; }
     .tour2 .left-t-2 {
       width: 100%;
-      height: 50%;
+      height: 60%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1829,28 +1821,23 @@ footer {
           height: 30px;
           font-weight: bold; }
         .tour2 .left-t-2 .info-boxes .hrs-txt {
-          font-size: 21px;
+          font-size: 22px;
           font-family: Mundo-reg;
           color: var(--white);
-          width: 200px;
+          width: 220px;
           height: 30px;
-          font-weight: 300; }
+          font-weight: 300;
+          padding-bottom: 20px; }
         .tour2 .left-t-2 .info-boxes .who-txt {
-          font-size: 19px;
+          font-size: 20px;
           font-family: Mundo-reg;
           color: var(--white);
           width: 275px;
           height: 30px;
           padding-bottom: 60px; }
-        .tour2 .left-t-2 .info-boxes .extra-txt {
-          width: 315px;
-          font-size: 17px;
-          font-family: Mundo-reg;
-          color: var(--white);
-          font-style: italic; }
     .tour2 .right-t-2 {
       width: 100%;
-      height: 50%;
+      height: 40%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1862,7 +1849,7 @@ footer {
   .video {
     display: flex;
     flex-direction: column;
-    height: 75vh; }
+    height: 45vh; }
     .video .video-title {
       font-size: 40px;
       width: 325px;
