@@ -25,7 +25,8 @@
                 font-family: Mundo-Reg;
             }
             p{
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Mundo-Reg;
+                font-size: 22px;
             }
         }
         .printright{
@@ -72,7 +73,8 @@
             }
             p{
                 color:white;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Mundo-Reg;
+                font-size: 22px;
             }
         }
         .robotright{
@@ -127,7 +129,8 @@
         }
         p{
             color: white;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Mundo-Reg;
+            font-size: 22px;
         }
 
         h2{
@@ -139,7 +142,7 @@
 }
 // stem video styling
 .video.stem {
-    height: 85vh;
+    height: 95vh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(1,auto); 
@@ -155,14 +158,14 @@
     align-items: center;
     justify-content: space-evenly;
     font-family: Mundo-Reg;
-    
+    padding-bottom: 20px;
 } 
 // changing the media player to work with the stem page
 .mediaplayer.stem {
     width: 825px;
     height: 400px;
     background-color: var(--yellow2);
-
+    margin-top: -10%;
 }
 }
 // styling for 1200px
@@ -209,7 +212,7 @@
     .video.stem {
         display: flex;
         flex-direction: column;
-        height: 75vh;
+        height: 85vh;
    
         .video-title.stem{
    
@@ -249,6 +252,44 @@
 //   styling for phone 
 @media screen and (max-width: 560px) {
 
+
+    .video.stem {
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+   
+        .video-title.stem {
+            font-size: 40px;
+            width: 325px;
+            font-family: Mundo-Reg;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        .mediaplayer.stem{
+            width: 325px;
+            height: 200px;
+        }
+    }
+.sproject-sect {
+        width: 100%;
+        min-height: 400px;        
+        .sprojectcontent{
+            width: 300px;
+            min-height: 250px;
+            
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 18px;
+            }
+    
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
     .print-sect {
         height: 600px;
         .printcontent{
@@ -261,7 +302,7 @@
                     font-size: 35px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 18px;
                 }
             }
             .printright{
@@ -287,7 +328,7 @@
                     font-size: 30px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 18px;
                 }
             }
             .robotright{
@@ -301,41 +342,6 @@
             }
         }
     }
-    .sproject-sect {
-        width: 100%;
-        min-height: 400px;        
-        .sprojectcontent{
-            width: 300px;
-            min-height: 250px;
-            
-            h1{
-                font-size: 35px;
-            }
-            p{
-                font-size: 14px;
-            }
     
-            h2{
-                font-size: 20px;
-            }
-        }
-    }
-    .video.stem {
-        display: flex;
-        flex-direction: column;
-        height: 55vh;
-   
-        .video-title.stem {
-            font-size: 40px;
-            width: 325px;
-            font-family: Mundo-Reg;
-            text-align: center;
-            padding-bottom: 5px;
-        }
-
-        .mediaplayer.stem{
-            width: 325px;
-            height: 200px;
-        }
-    }
+    
 }

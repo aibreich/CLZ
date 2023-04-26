@@ -1398,7 +1398,7 @@ footer {
       background-size: cover; }
 
 .video {
-  height: 85vh;
+  height: 95vh;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(1, auto);
@@ -1556,7 +1556,7 @@ footer {
   .video {
     display: flex;
     flex-direction: column;
-    height: 75vh; }
+    height: 85vh; }
     .video .video-title {
       font-size: 55px;
       font-family: Mundo-Reg;
@@ -1843,7 +1843,7 @@ footer {
   .video {
     display: flex;
     flex-direction: column;
-    height: 45vh; }
+    height: 55vh; }
     .video .video-title {
       font-size: 40px;
       width: 325px;
@@ -2410,7 +2410,8 @@ footer {
         font-size: 50px;
         font-family: Mundo-Reg; }
       .print-sect .printcontent .printleft p {
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: Mundo-Reg;
+        font-size: 22px; }
     .print-sect .printcontent .printright {
       width: 420px;
       height: 100%; }
@@ -2447,7 +2448,8 @@ footer {
         font-family: Mundo-Reg; }
       .robot-sect .robotcontent .robotleft p {
         color: white;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: Mundo-Reg;
+        font-size: 22px; }
     .robot-sect .robotcontent .robotright {
       width: 420px;
       height: 100%; }
@@ -2490,14 +2492,15 @@ footer {
       font-family: Mundo-Reg; }
     .sproject-sect .sprojectcontent p {
       color: white;
-      font-family: Arial, Helvetica, sans-serif; }
+      font-family: Mundo-Reg;
+      font-size: 22px; }
     .sproject-sect .sprojectcontent h2 {
       color: white;
       font-size: 24px;
       font-family: Mundo-Reg; }
 
 .video.stem {
-  height: 85vh;
+  height: 95vh;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(1, auto);
@@ -2511,11 +2514,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-family: Mundo-Reg; }
+    font-family: Mundo-Reg;
+    padding-bottom: 20px; }
   .video.stem .mediaplayer.stem {
     width: 825px;
     height: 400px;
-    background-color: var(--yellow2); }
+    background-color: var(--yellow2);
+    margin-top: -10%; }
 
 @media screen and (max-width: 1000px) {
   .print-sect {
@@ -2544,7 +2549,7 @@ footer {
   .video.stem {
     display: flex;
     flex-direction: column;
-    height: 75vh; }
+    height: 85vh; }
     .video.stem .video-title.stem {
       font-size: 55px;
       font-family: Mundo-Reg;
@@ -2570,6 +2575,31 @@ footer {
       height: 300px; } }
 
 @media screen and (max-width: 560px) {
+  .video.stem {
+    display: flex;
+    flex-direction: column;
+    height: 55vh; }
+    .video.stem .video-title.stem {
+      font-size: 40px;
+      width: 325px;
+      font-family: Mundo-Reg;
+      text-align: center;
+      padding-bottom: 5px; }
+    .video.stem .mediaplayer.stem {
+      width: 325px;
+      height: 200px; }
+  .sproject-sect {
+    width: 100%;
+    min-height: 400px; }
+    .sproject-sect .sprojectcontent {
+      width: 300px;
+      min-height: 250px; }
+      .sproject-sect .sprojectcontent h1 {
+        font-size: 35px; }
+      .sproject-sect .sprojectcontent p {
+        font-size: 18px; }
+      .sproject-sect .sprojectcontent h2 {
+        font-size: 20px; }
   .print-sect {
     height: 600px; }
     .print-sect .printcontent {
@@ -2581,7 +2611,7 @@ footer {
         .print-sect .printcontent .printleft h1 {
           font-size: 35px; }
         .print-sect .printcontent .printleft p {
-          font-size: 14px; }
+          font-size: 18px; }
       .print-sect .printcontent .printright {
         width: 100%;
         height: 100%; }
@@ -2599,38 +2629,13 @@ footer {
         .robot-sect .robotcontent .robotleft h1 {
           font-size: 30px; }
         .robot-sect .robotcontent .robotleft p {
-          font-size: 14px; }
+          font-size: 18px; }
       .robot-sect .robotcontent .robotright {
         width: 100%;
         height: 100%; }
         .robot-sect .robotcontent .robotright .robotimg {
           width: 90px;
-          height: 250px; }
-  .sproject-sect {
-    width: 100%;
-    min-height: 400px; }
-    .sproject-sect .sprojectcontent {
-      width: 300px;
-      min-height: 250px; }
-      .sproject-sect .sprojectcontent h1 {
-        font-size: 35px; }
-      .sproject-sect .sprojectcontent p {
-        font-size: 14px; }
-      .sproject-sect .sprojectcontent h2 {
-        font-size: 20px; }
-  .video.stem {
-    display: flex;
-    flex-direction: column;
-    height: 55vh; }
-    .video.stem .video-title.stem {
-      font-size: 40px;
-      width: 325px;
-      font-family: Mundo-Reg;
-      text-align: center;
-      padding-bottom: 5px; }
-    .video.stem .mediaplayer.stem {
-      width: 325px;
-      height: 200px; } }
+          height: 250px; } }
 
 .games2 {
   height: 35vh;
