@@ -2165,6 +2165,7 @@ footer {
         font-size: 50px;
         font-family: Mundo-Reg; }
       .whitecraft-sect .content .left p {
+        color: var(--green);
         font-family: Mundo-reg;
         font-size: 24px; }
     .whitecraft-sect .content .right {
@@ -2410,6 +2411,7 @@ footer {
         font-size: 50px;
         font-family: Mundo-Reg; }
       .print-sect .printcontent .printleft p {
+        color: var(--yellow2);
         font-family: Mundo-Reg;
         font-size: 22px; }
     .print-sect .printcontent .printright {
@@ -2638,15 +2640,16 @@ footer {
           height: 250px; } }
 
 .games2 {
-  height: 35vh;
+  height: 100vh;
   width: 100vw;
   box-shadow: 0px 0px 15px black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly; }
   .games2 .game-box {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     background-color: var(--red2);
     display: flex;
     align-items: center;
@@ -2660,6 +2663,7 @@ footer {
       justify-content: space-evenly;
       text-align: center;
       width: 80%;
+      height: 90%;
       margin: 0 auto; }
       .games2 .game-box .word-cont .title {
         color: white;
@@ -2693,16 +2697,19 @@ footer {
     justify-content: space-between; }
     .white-sect .whitecontent .whiteleft {
       padding: 15px;
-      width: 600px;
+      width: 50%;
       height: 100%; }
       .white-sect .whitecontent .whiteleft h1 {
         color: var(--red2);
         font-size: 50px;
-        font-family: Mundo-Reg; }
+        font-family: Mundo-Reg;
+        width: 440px; }
       .white-sect .whitecontent .whiteleft p {
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: Mundo-Reg;
+        font-size: 22px;
+        color: var(--red2); }
     .white-sect .whitecontent .whiteright {
-      width: 420px;
+      width: 50%;
       height: 100%; }
       .white-sect .whitecontent .whiteright .whiteimg {
         width: 380px;
@@ -2761,44 +2768,7 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .games2 {
-    height: 40vh;
-    width: 100vw;
-    box-shadow: 0px 0px 15px black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
-    .games2 .game-box {
-      width: 50%;
-      height: 100%;
-      background-color: var(--red2);
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      box-shadow: 0px 2px 8px black; }
-      .games2 .game-box .word-cont .title {
-        font-size: 40px; }
-      .games2 .game-box .word-cont .info {
-        font-size: 20px; }
-  .white-sect {
-    height: 700px; }
-    .white-sect .whitecontent {
-      flex-direction: column;
-      height: 500px; }
-      .white-sect .whitecontent .whiteleft {
-        width: 450px; }
-        .white-sect .whitecontent .whiteleft h1 {
-          font-size: 40px; }
-      .white-sect .whitecontent .whiteright .gamevolimg {
-        width: 300px;
-        height: 300px; }
-  .upperbox2 {
-    width: 100%; }
-    .upperbox2 .infoholder .wordcontent h1 {
-      font-size: 75px; } }
-
-@media screen and (max-width: 780px) {
-  .games2 {
-    height: 70vh;
+    height: 85vh;
     width: 100vw;
     box-shadow: 0px 0px 15px black;
     display: flex;
@@ -2814,13 +2784,83 @@ footer {
       justify-content: space-evenly;
       box-shadow: 0px 2px 8px black; }
       .games2 .game-box .word-cont .title {
-        font-size: 48px; }
+        font-size: 40px; }
       .games2 .game-box .word-cont .info {
-        font-size: 25px; }
+        font-size: 18px; }
+  .white-sect {
+    height: 100vh; }
+    .white-sect .whitecontent {
+      flex-direction: column;
+      height: 90%;
+      width: 80%; }
+      .white-sect .whitecontent .whiteleft {
+        width: 70%;
+        height: 50%; }
+        .white-sect .whitecontent .whiteleft h1 {
+          font-size: 40px; }
+        .white-sect .whitecontent .whiteleft p {
+          font-size: 20px; }
+      .white-sect .whitecontent .whiteright {
+        width: 90%;
+        height: 50%; }
+        .white-sect .whitecontent .whiteright .whiteimg {
+          width: 360px;
+          height: 270px; }
+        .white-sect .whitecontent .whiteright .gamevolimg {
+          width: 360px;
+          height: 270px; }
+  .upperbox2 {
+    width: 100%; }
+    .upperbox2 .infoholder .wordcontent h1 {
+      font-size: 75px; } }
+
+@media screen and (max-width: 780px) {
+  .games2 {
+    height: 80vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .games2 .game-box {
+      width: 100%;
+      height: 50%;
+      background-color: var(--red2);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0px 2px 8px black; }
+      .games2 .game-box .word-cont .title {
+        font-size: 40px; }
+      .games2 .game-box .word-cont .info {
+        font-size: 16px; }
   .upperbox2 .infoholder .wordcontent {
     text-align: center; }
     .upperbox2 .infoholder .wordcontent h1 {
-      font-size: 60px; } }
+      font-size: 60px; }
+  .white-sect {
+    height: 100vh; }
+    .white-sect .whitecontent {
+      flex-direction: column;
+      height: 90%;
+      width: 80%; }
+      .white-sect .whitecontent .whiteleft {
+        width: 70%;
+        height: 50%; }
+        .white-sect .whitecontent .whiteleft h1 {
+          font-size: 40px; }
+        .white-sect .whitecontent .whiteleft p {
+          font-size: 18px; }
+      .white-sect .whitecontent .whiteright {
+        width: 90%;
+        height: 50%; }
+        .white-sect .whitecontent .whiteright .whiteimg {
+          width: 360px;
+          height: 270px; }
+        .white-sect .whitecontent .whiteright .gamevolimg {
+          width: 360px;
+          height: 270px; } }
 
 @media screen and (max-width: 560px) {
   .games2 {
@@ -2841,7 +2881,7 @@ footer {
       .games2 .game-box .word-cont .title {
         font-size: 40px; }
       .games2 .game-box .word-cont .info {
-        font-size: 18px; }
+        font-size: 14px; }
   .white-sect {
     height: 600px; }
     .white-sect .whitecontent {
@@ -2853,7 +2893,7 @@ footer {
         .white-sect .whitecontent .whiteleft h1 {
           font-size: 32px; }
         .white-sect .whitecontent .whiteleft p {
-          font-size: 14px; }
+          font-size: 16px; }
       .white-sect .whitecontent .whiteright {
         width: 100%;
         height: 100%; }

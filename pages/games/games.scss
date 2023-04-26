@@ -1,14 +1,15 @@
  // minecraft realm and game rental
 .games2 {
-    height: 35vh;
+    height: 100vh;
     width: 100vw;
     box-shadow: 0px 0px 15px black;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     .game-box{
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
         background-color: var(--red2);  
         display: flex;
         align-items: center;
@@ -23,6 +24,7 @@
             justify-content: space-evenly;
             text-align: center;
             width: 80%;
+            height: 90%;
             margin: 0 auto;
             
             .title{
@@ -66,19 +68,22 @@
         
         .whiteleft{
             padding: 15px;
-            width: 600px;
+            width: 50%;
             height: 100%;
             h1{
                 color:var(--red2);
                 font-size: 50px;
                 font-family: Mundo-Reg;
+                width: 440px;
             }
             p{
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Mundo-Reg;
+                font-size: 22px;
+                color:var(--red2);
             }
         }
         .whiteright{
-            width: 420px;
+            width: 50%;
             height: 100%;
 
             .whiteimg{
@@ -156,19 +161,20 @@
 //   styling at 1000px (smaller web screens or bigger tablets)
 @media screen and (max-width: 1000px){
     .games2 {
-        height: 40vh;
-        width: 100vw;
-        box-shadow: 0px 0px 15px black;
+    height: 85vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+        .game-box{
+            width: 100%;
+        height: 50%;
+        background-color: var(--red2);  
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        .game-box{
-            width: 50%;
-            height: 100%;
-            background-color: var(--red2);  
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
             box-shadow: 0px 2px 8px black; 
             
             .word-cont{ 
@@ -177,26 +183,39 @@
                 font-size: 40px; 
                 }
                 .info{
-                    font-size: 20px;
+                    font-size: 18px;
                 }
             }
         }
     }
     .white-sect {     
-        height: 700px;   
+        height: 100vh;   
         .whitecontent{
             flex-direction: column;
-            height: 500px;
+            height: 90%;
+            width: 80%;
+           
+        
             .whiteleft{
-                width: 450px;
+                width: 70%;
+            height: 50%;
                 h1{
                     font-size: 40px;
                 }
+                p{
+                    font-size: 20px;
+                }
             }
             .whiteright{
+                width: 90%;
+            height: 50%;
+            .whiteimg{
+                width: 360px;
+                height: 270px;
+            }
                 .gamevolimg{
-                    width: 300px;
-                    height: 300px;
+                    width: 360px;
+                    height: 270px;
                 }
             }
         }
@@ -216,40 +235,71 @@
 //   styling for 780px (Tablets or bigger phones)
 @media screen and (max-width: 780px) {
     .games2 {
-        height: 70vh;
+        height: 80vh;
         width: 100vw;
         box-shadow: 0px 0px 15px black;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        .game-box{
-            width: 100%;
+            .game-box{
+                width: 100%;
             height: 50%;
             background-color: var(--red2);  
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            box-shadow: 0px 2px 8px black; 
-            
-            .word-cont{ 
+                box-shadow: 0px 2px 8px black; 
                 
-                
-                .title{
-                font-size: 48px; 
-                }
-                .info{
-                    font-size: 25px;
+                .word-cont{ 
+                    
+                    .title{
+                    font-size: 40px; 
+                    }
+                    .info{
+                        font-size: 16px;
+                    }
                 }
             }
         }
-    }
     .upperbox2{    
         .infoholder{
             .wordcontent{
                 text-align: center;
                 h1{
                     font-size: 60px;
+                }
+            }
+        }
+    }
+    .white-sect {     
+        height: 100vh;   
+        .whitecontent{
+            flex-direction: column;
+            height: 90%;
+            width: 80%;
+           
+        
+            .whiteleft{
+                width: 70%;
+            height: 50%;
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            .whiteright{
+                width: 90%;
+            height: 50%;
+            .whiteimg{
+                width: 360px;
+                height: 270px;
+            }
+                .gamevolimg{
+                    width: 360px;
+                    height: 270px;
                 }
             }
         }
@@ -280,7 +330,7 @@
                 font-size: 40px; 
                 }
                 .info{
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
         }
@@ -297,7 +347,7 @@
                     font-size: 32px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }
             .whiteright{
