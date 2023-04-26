@@ -1602,21 +1602,21 @@ footer {
           padding-bottom: 45px;
           font-weight: bold; }
         .tour1 .left-t-1 .info-boxes .hrs-txt {
-          font-size: 21px;
+          font-size: 23px;
           font-family: Mundo-reg;
           color: var(--blue);
           width: 100%;
           height: 30px;
           font-weight: 300; }
         .tour1 .left-t-1 .info-boxes .who-txt {
-          font-size: 19px;
+          font-size: 20px;
           font-family: Mundo-reg;
           color: var(--blue);
           width: 100%;
           height: 30px; }
         .tour1 .left-t-1 .info-boxes .extra-txt {
           width: 315px;
-          font-size: 17px;
+          font-size: 18px;
           font-family: Mundo-reg;
           color: var(--blue);
           font-style: italic; }
@@ -1670,24 +1670,18 @@ footer {
           padding-bottom: 45px;
           font-weight: bold; }
         .tour2 .left-t-1 .info-boxes .hrs-txt {
-          font-size: 21px;
+          font-size: 23px;
           font-family: Mundo-reg;
           color: var(--blue);
           width: 100%;
           height: 30px;
           font-weight: 300; }
         .tour2 .left-t-1 .info-boxes .who-txt {
-          font-size: 19px;
+          font-size: 20px;
           font-family: Mundo-reg;
           color: var(--blue);
           width: 100%;
           height: 30px; }
-        .tour2 .left-t-1 .info-boxes .extra-txt {
-          width: 315px;
-          font-size: 17px;
-          font-family: Mundo-reg;
-          color: var(--blue);
-          font-style: italic; }
     .tour2 .right-t-1 {
       width: 50%;
       height: 100%;
