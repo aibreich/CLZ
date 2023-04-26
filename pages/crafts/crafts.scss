@@ -94,7 +94,7 @@
             text-align: left;
             h6{
                 color: white;
-                font-size: 20px;
+                font-size: 24px;
                 font-family: Mundo-Reg;
                 padding: 0;
                 margin-bottom: -20px;
@@ -145,7 +145,8 @@
                 font-family: Mundo-Reg;
             }
             p{
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Mundo-reg;
+                font-size: 24px;
             }
         }
         .right{
@@ -201,7 +202,8 @@
             }
             p{
                 color: white;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Mundo-reg;
+                font-size: 24px;
             }
         }
         .right{
@@ -285,10 +287,10 @@
     }
 
     .whitecraft-sect {     
-        height: 700px;   
+        height: 600px;   
         .content{
-            flex-direction: column;
-            height: 500px;
+            // flex-direction: column;
+            height: 350px;
             .left{
                 width: 450px;
             }
@@ -296,10 +298,10 @@
     }
 
     .greencraft-sect {     
-        height: 700px;   
+        height: 600px;   
         .content{
-            flex-direction: column;
-            height: 500px;
+            // flex-direction: column;
+            height: 350px;
             .left{
                 width: 450px;
             }
@@ -344,6 +346,27 @@
             }
         }
     }
+    .whitecraft-sect {     
+        height: 750px;   
+        .content{
+            flex-direction: column;
+            height: 550px;
+            .left{
+                width: 450px;
+            }
+        }
+    }
+
+    .greencraft-sect {     
+        height: 750px;   
+        .content{
+            flex-direction: column;
+            height: 550px;
+            .left{
+                width: 450px;
+            }
+        }
+    }
   }
 //   styling for phone
   @media screen and (max-width: 560px){
@@ -360,7 +383,7 @@
                     font-size: 35px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 19px;
                 }
             }
             .right{
@@ -394,7 +417,7 @@
                     font-size: 35px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 19px;
                 }
             }
             .right{
@@ -438,15 +461,15 @@
                     color: white;
                 }
                 h6{
-                    font-size: 16px;
+                    font-size: 20px;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: 20px;
                     font-family: Mundo-Reg;
                     color: white;
                 }
                 h2{
-                    font-size: 20px;
+                    font-size: 30px;
                 }
             }
         }
