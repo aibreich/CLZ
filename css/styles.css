@@ -2012,7 +2012,7 @@ footer {
         text-align: center; }
         .upperbox .infoholder .wordcontent h6 {
           color: white;
-          font-size: 14px;
+          font-size: 20px;
           font-family: Mundo-Reg;
           padding: 0; }
         .upperbox .infoholder .wordcontent h1 {
@@ -2024,7 +2024,7 @@ footer {
           font-family: Mundo-Reg;
           color: white; }
         .upperbox .infoholder .wordcontent p {
-          font-size: 14px;
+          font-size: 20px;
           font-family: Mundo-Reg;
           color: white; }
   .dayinformationpurple {
@@ -2035,7 +2035,7 @@ footer {
       .dayinformationpurple .infoholder h1 {
         font-size: 40px; }
       .dayinformationpurple .infoholder p {
-        font-size: 18px; }
+        font-size: 19px; }
   .dayinformationwhite {
     width: 100%;
     min-height: 250px; }
@@ -2045,7 +2045,7 @@ footer {
       .dayinformationwhite .infoholder h1 {
         font-size: 40px; }
       .dayinformationwhite .infoholder p {
-        font-size: 18px; } }
+        font-size: 19px; } }
 
 .crafts-subsect {
   height: 32vh;
